@@ -4,12 +4,65 @@ body
     background-color: rgb(155, 155, 155);
 }
 /*ID Selectors (#)*/
+#header
+{
+
+}
+#nav-bar
+{
+
+}
+#header-img
+{
+    height: 100px;
+   
+}
 
 /*Class Selectors (.)*/
+.nav-list{
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    position: fixed;
+    
+}
+.nav-list a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link
+{
+    margin-right: 2rem;
+}
+
+.nav-link:first-child
+{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+/*.nav-link:last-child
+{
+    margin-right: 2rem;
+}*/
+
+
 
 /*Pseudo-Class Selectors*/
 
 
-/*Add atleast 1 media query*/
+/*Add atleast 1 media query #14*/
 
-/*Media Queries*/
+/*Media Queries
+
+@media screen and (max-width: 600px)
+{
+    header#nav-bar{
+        background-color: chocolate;
+    }
+}
+*/
