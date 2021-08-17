@@ -21,11 +21,12 @@ body
 /*Class Selectors (.)*/
 .nav-list{
     background-color: white;
+    border: 2px solid black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    position: fixed;
+    /*position: fixed;*/
     
 }
 .nav-list a
@@ -42,18 +43,21 @@ body
 .nav-link:first-child
 {
     margin-right: auto;
-    margin-left: 2rem;
+    margin-left: -2%;
 }
 
-/*.nav-link:last-child
+.nav-link:last-child
 {
     margin-right: 2rem;
-}*/
-
+}
 
 
 /*Pseudo-Class Selectors*/
-
+.nav-link:hover
+{
+    color: red;
+    transition: all 200ms ease-in;
+}
 
 /*Add atleast 1 media query #14*/
 
