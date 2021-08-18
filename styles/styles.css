@@ -24,9 +24,13 @@ body
 #main-container
 {
     background-color: black;
-    height: 50px;
-    width: 50px;
-    position: relative;
+    max-height: 1200px;
+    min-height: 600px;
+    max-width: 1200px;
+    min-width: 650px;
+    margin: 0 auto;
+    padding: 50px;
+
 }
 
 /*Class Selectors (.)*/
