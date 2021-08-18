@@ -24,23 +24,34 @@ body
 #main-container
 {
     background-color: black;
-/*    max-height: 1200px;
+    max-height: 1200px;
     min-height: 600px;
     max-width: 1200px;
-    min-width: 650px;*/
-    margin-right: auto;
+    min-width: 650px;
+    margin-right: 30%;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
-
+    margin-top: 10%;
+    position: absolute;
+    
 }
 
 #form
 {
-    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    flex-direction: column;
+
+    
 }
-#form p{
-    color: white;
+#form label{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
 }
 
 /*Class Selectors (.)*/
@@ -71,6 +82,9 @@ body
 .nav-link:last-child
 {
     margin-right: 1rem;
+}
+.form-element{
+    margin: 5px;
 }
 
 
