@@ -21,6 +21,14 @@ body
    
 }
 
+#main-container
+{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
 /*Class Selectors (.)*/
 .nav-list{
     background-color: white;
@@ -61,12 +69,12 @@ body
 
 /*Add atleast 1 media query #14*/
 
-/*Media Queries
+/*Media Queries*/
 
-@media screen and (max-width: 600px)
+@media (max-width: 600px)
 {
-    header#nav-bar{
-        background-color: chocolate;
+    body
+    {
+        background-color: red; 
     }
 }
-*/
