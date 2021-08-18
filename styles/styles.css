@@ -24,18 +24,28 @@ body
 #main-container
 {
     background-color: black;
-    max-height: 1200px;
+/*    max-height: 1200px;
     min-height: 600px;
     max-width: 1200px;
-    min-width: 650px;
-    margin: 0 auto;
-    padding: 50px;
+    min-width: 650px;*/
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 
+}
+
+#form
+{
+    text-align: center;
+}
+#form p{
+    color: white;
 }
 
 /*Class Selectors (.)*/
 .nav-list{
-    background-color: white;
+    /*background-color: white;*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
