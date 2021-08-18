@@ -54,6 +54,13 @@ body
     font-weight: bold;
 }
 
+
+/*CHANGE THIS SHIT*/
+#how-it-works
+{
+    text-align: center;
+}
+
 /*Class Selectors (.)*/
 .nav-list{
     /*background-color: white;*/
@@ -86,6 +93,71 @@ body
 .form-element{
     margin: 5px;
 }
+
+.features
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 40px 40px;
+    grid-gap: 1rem;
+    padding-top: 15px;
+
+}
+.features-item1
+{
+    background: red;
+}
+.features-item2
+{
+    background: blue;
+}
+.features-item3
+{
+    background: yellow;
+}
+.features-item4
+{
+    background: green;
+}
+.features-item5
+{
+    background: pink;
+}
+.features-item6
+{
+    background: white;
+}
+
+.pricing
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pricing-item1
+{
+    background: blue;
+}
+.pricing-item2
+{
+    background: red;
+}
+.pricing-item3
+{
+    background: yellow;
+}
+.footer
+{
+    background-color: pink;
+    height: 50px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
 
 
 /*Pseudo-Class Selectors*/
