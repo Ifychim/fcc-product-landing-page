@@ -24,6 +24,7 @@ body
 #main-container
 {
     background-color: gray;
+ 
     max-width: 1200px;
     min-width: 650px;
     width: 100%;
@@ -34,6 +35,24 @@ body
     margin-top: 10%;
     position: absolute;
     
+}
+#features
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 40px 40px;
+    grid-gap: 1rem;
+    padding-top: 15px;
+    
+
+}
+#pricing
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
 }
 
 #form
@@ -93,16 +112,7 @@ body
     margin: 5px;
 }
 
-.features
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40px 40px 40px;
-    grid-gap: 1rem;
-    padding-top: 15px;
-    
 
-}
 .features-icon img
 {
     height: 100px;
@@ -133,31 +143,8 @@ body
 {
     margin-top: 200px;
 }
-/*.features-item3 img
-{
-    background: yellow;
-}
-.features-item4 img
-{
-    background: green;
-}
-.features-item5 img
-{
-    background: pink;
-}
-.features-item6 img
-{
-    background: white;
-}
-*/
-.pricing
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40px;
-    grid-gap: 1rem;
-    margin-bottom: 1rem;
-}
+
+
 
 .pricing-item1
 {
