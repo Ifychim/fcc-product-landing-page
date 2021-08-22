@@ -28,7 +28,7 @@ body
     min-width: 650px;
     width: 100%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 300px;
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 10%;
@@ -42,13 +42,12 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid red;
     flex-direction: column;
 
     
 }
 #form label{
-    color: red;
+   
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
 }
@@ -58,15 +57,12 @@ body
     display: flex;
     justify-content: center;
     position: relative;
-    border: red solid 3px;
-    margin-top: 150px;
+    margin-top: 450px;
     margin-bottom: 150px;
 }
 
 /*Class Selectors (.)*/
 .nav-list{
-    /*background-color: white;
-     box-shadow: 0px 0px 10px black;*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -104,26 +100,38 @@ body
     grid-template-rows: 40px 40px 40px;
     grid-gap: 1rem;
     padding-top: 15px;
+    
 
 }
 .features-icon img
 {
-    
     height: 100px;
-    border: red solid 2px;
+
 }
+
+.features-icon.icon2
+{
+    margin-top: 100px;
+}
+
+.features-icon.icon3
+{
+    margin-top: 200px;
+}
+
 .features-description 
 {
-    
-    height: 150px;
-    /*border: red solid 2px;
-    background: blue;*/
-    
+    height: 150px;  
 }
 
 .features-description.desc2
 {
     margin-top: 100px;
+}
+
+.features-description.desc3
+{
+    margin-top: 200px;
 }
 /*.features-item3 img
 {
