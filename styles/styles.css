@@ -23,18 +23,19 @@ body
 
 #main-container
 {
-    background-color: gray;
+    
  
     max-width: 1200px;
     min-width: 650px;
     width: 100%;
-    margin-right: auto;
-    margin-left: 300px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 10%;
-    position: absolute;
-    
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    height: 2000px;
+
+
 }
 #features
 {
@@ -52,7 +53,7 @@ body
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 40px;
     grid-gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 #form
@@ -78,6 +79,16 @@ body
     position: relative;
     margin-top: 450px;
     margin-bottom: 150px;
+}
+
+#submit
+{
+    border: none;
+    outline: none;
+    background-color: greenyellow;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 100px; 
 }
 
 /*Class Selectors (.)*/
@@ -145,28 +156,57 @@ body
 }
 
 
+.pricing-item
+{
+    border: solid 1px black;
+    height: 300px;
+    width: 300px;
+   
 
-.pricing-item1
-{
-    background: blue;
 }
-.pricing-item2
+
+.pricing-item-header
 {
-    background: red;
+    text-align: center;
+    height: 30px;
+    padding-top: 0;
+    background-color: gray;
+    font-size: larger;
+    position: relative;
+    bottom: 30px;
+
 }
-.pricing-item3
+.pricing-item-content
 {
-    background: yellow;
+    text-align: center;
+    font-size: larger;
+    position: relative;
+    bottom: 35px;
 }
+
+.pricing-item-content button
+{
+    border: none;
+    outline: none;
+    background-color: greenyellow;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+
+
 .footer
 {
-    background-color: pink;
+    background-color: gray;
     height: 50px;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     display: flex;
     justify-content: flex-end;
     padding: 5px;
+    margin-top: 500px;
 }
 .footer-item
 {
@@ -198,6 +238,18 @@ body
 .nav-link:hover
 {
     color: red;
+    transition: all 100ms ease-in;
+}
+
+.pricing-item-content button:hover
+{
+    background-color: indianred;
+    transition: all 100ms ease-in;
+}
+
+#submit:hover
+{
+    background-color: indianred;
     transition: all 100ms ease-in;
 }
 
