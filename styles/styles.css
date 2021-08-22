@@ -161,6 +161,7 @@ body
     border: solid 1px black;
     height: 300px;
     width: 300px;
+    padding-bottom: 10px;
    
 
 }
@@ -182,6 +183,7 @@ body
     font-size: larger;
     position: relative;
     bottom: 35px;
+    
 }
 
 .pricing-item-content button
@@ -192,47 +194,39 @@ body
     font-size: 20px;
     border-radius: 10px;
     width: 100px;
+    
 }
-
-
-
 
 .footer
 {
     background-color: gray;
-    height: 50px;
+    height: 150px;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
-    display: flex;
-    justify-content: flex-end;
     padding: 5px;
     margin-top: 500px;
-}
-.footer-item
-{
-    margin: 5px;
+
+    color:red;
     
 }
-.footer .copyright
-{
-    color: red;
-    align-self: flex-end;
-}
 
-.footer .privacy
+.footer-container
 {
-    color: blue;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.footer .terms
+.footer ul
 {
-    color: blue;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.footer .contact
+.footer li
 {
-    color: blue;
+    padding: 0 15px;
+    margin-bottom: 16px;
 }
-
 
 /*Pseudo-Class Selectors*/
 .nav-link:hover
